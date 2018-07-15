@@ -1,4 +1,4 @@
-//è·å–æœ€å¤§å€¼
+//»ñÈ¡×î´óÖµ
 /*
 class  ArrayDemo2{
 	public static void main(String[] args) {
@@ -13,7 +13,7 @@ class  ArrayDemo2{
 	}
 }
 */
-//æ–¹æ³•æ”¹è¿›
+//·½·¨¸Ä½ø
 
 class ArrayMaxDemo {
 	public static void main(String[] args) {
