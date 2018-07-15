@@ -16,7 +16,7 @@ class WhileDemo {
 	public static void main(String[] args) {
 		double dayMoney = 2.5;
 		double daySum = 0;
-		int dayCount = 1;
+		int dayCount = 1;                                  //第一天开始存钱
 		int result = 100;
 		while (true)                                       //不知道多少天，所以用while
 		{
@@ -28,7 +28,7 @@ class WhileDemo {
 			}
 			if (daySum>=100)
 			{
-				System.out.println("第"+dayCount+"存到钱");
+				System.out.println("第"+dayCount+"存到钱");    
 				break;
 			}
 			dayCount++;

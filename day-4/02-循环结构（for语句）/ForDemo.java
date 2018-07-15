@@ -62,9 +62,9 @@ class  ForDemo{
 class  ForDemo{
 	public static void main(String[] args) {
 		int sum = 0;
-		for (int x = 0;x <= 100 ;x+=2 )
-		{sum += x; 
-		}    
-			System.out.println("偶数之和为"+sum);
+		for (int x = 0;x <= 100 ;x+=2) {
+			sum += x; 
+		}  
+		System.out.println("偶数之和为"+sum);
 	}
 }

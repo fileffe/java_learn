@@ -6,8 +6,10 @@ class   ArrayDemo4{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("请输入一个数据(1-7)");
 		int index = sc.nextInt() - 1;
-
-		System.out.println("查找的日期是: "+strArray[index]);
-
+		if (index<1||index>7) {
+			System.out.println("输入不在 1-7内");
+		} else {
+			System.out.println("查找的日期是: "+strArray[index]);
+		}
 	}
 }

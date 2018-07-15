@@ -33,10 +33,10 @@ class FunctionTest4 {
 		printNN(n);
 	}
 
-	public static void printNN(int n){
-		for (int x=1;x<=n ;x++ )
-		{for (int y=1;y<=x ;y++ )
-		{System.out.print(y+"*"+x+"="+y*x+"\t");
+	public static void printNN(int n) {
+		for (int x=1;x<=n ;x++ ) {
+			for (int y=1;y<=x ;y++ ) {
+				System.out.print(y+"*"+x+"="+y*x+"\t");
 			}
 			System.out.println();
 		}

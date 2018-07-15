@@ -6,15 +6,12 @@ class  ArrayDemo5{
 		System.out.println("250在数组中第一次出现的索引是"+index);
 	}
 
-	public static int getIndex(int[] arr,int value)
-	{
-		for (int x=0;x<arr.length ;x++ )
-		{
-			if (arr[x]=value)
-			{
+	public static int getIndex(int[] arr,int value) {
+		for (int x=0;x<arr.length ;x++ ) {
+			if (arr[x]==value) {
 				return x;
 			}
 		}
-		return -1;               //未找到
+	    return -1;       //未找到
 	}
 }

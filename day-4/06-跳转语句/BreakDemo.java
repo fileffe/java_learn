@@ -1,11 +1,11 @@
 //控制跳转语句
 class BreakDemo {                                
 	public static void main(String[] args) {
-		for (int x=0;x<10;x++ )
-		{if (x==2)
-		{break;                               //只用于循环语句和Switch语句，否则无意义
-		}
-		 System.out.println("Hello World!");  //x=2时终止循环；输出两次HelloWorld
+		for (int x=0;x<10;x++ ) {
+			if (x==2) {
+				break;                               //只用于循环语句和Switch语句，否则无意义
+			}
+			System.out.println("Hello World!");  //x=2时终止循环；输出两次HelloWorld
 		}
 		System.out.println("over");           //break不影响循环大括号外
 

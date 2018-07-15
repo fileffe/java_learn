@@ -30,8 +30,7 @@ class ArrayDemo {
 	}
 
 	public static void printArray2(int[] arr2){
-		for (int y=0; y<arr2.length; y++)                 //此处为小于，或<=arr2.length-1
-		{
+		for (int y=0; y<arr2.length; y++) {                //此处为小于，或<=arr2.length-1
 			System.out.println(arr2[y]);
 		}
 	}
